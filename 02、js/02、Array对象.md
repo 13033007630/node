@@ -2,6 +2,10 @@
 
 ---
 
+
+
+#### 1、方法
+
 | **方法**                                                     | **描述**                                             |
 | ------------------------------------------------------------ | ---------------------------------------------------- |
 | [concat()](https://www.runoob.com/jsref/jsref-concat-array.html) | 连接两个或更多的数组，并返回结果。                   |
@@ -30,4 +34,18 @@
 | [valueOf()](https://www.runoob.com/jsref/jsref-valueof-array.html) | 返回数组对象的原始值。                               |
 
 
+
+#### 2、应用
+
++ `filter`  删除数组中指定的商品（例：传ID）
+
+  ```js
+  function remove(id){
+      this.list = this.list.filter(item => {
+          item.id != id
+      })
+  }
+  ```
+
+  
 
